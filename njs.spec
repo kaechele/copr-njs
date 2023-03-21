@@ -6,8 +6,8 @@ Release:        %autorelease
 Summary:        Scripting language for nginx
 
 License:        BSD
-URL:            http://nginx.org/en/docs/njs
-Source0:        http://hg.nginx.org/njs/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
+URL:            https://nginx.org/en/docs/njs
+Source0:        https://hg.nginx.org/njs/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Patch0:         0001-njs-remove-Werror-in-upstream-build-scripts.patch
 
 BuildRequires:  gcc
@@ -83,3 +83,4 @@ install -Dpm 0755 build/njs %{buildroot}/%{_bindir}/njs
 
 %changelog
 %autochangelog
+
