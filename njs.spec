@@ -1,7 +1,7 @@
 %global _nginx_modsrcdir ../nginx
 
 Name:           njs
-Version:        0.7.11
+Version:        0.7.12
 Release:        %autorelease
 Summary:        Scripting language for nginx
 
@@ -12,6 +12,9 @@ Patch0:         0001-njs-remove-Werror-in-upstream-build-scripts.patch
 
 BuildRequires:  gcc
 BuildRequires:  nginx-mod-devel
+BuildRequires:  openssl-devel
+BuildRequires:  pcre2-devel
+BuildRequires:  zlib-devel
 
 
 %description
