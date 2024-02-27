@@ -1,7 +1,7 @@
 %global _nginx_modsrcdir ../nginx
 
 Name:           njs
-Version:        0.8.0
+Version:        0.8.2
 Release:        %autorelease
 Summary:        Scripting language for nginx
 
